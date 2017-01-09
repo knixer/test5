@@ -50,7 +50,7 @@ public class Note {
 
     public String toString(){
         return "ID: " + noteId + "Title: " + title + "Message: " + message + " IconID: " + category.name()
-                + " Date: " + " TEST";
+                + " Date: ";
     }
 
     public int getAssociatedDrawable(){
